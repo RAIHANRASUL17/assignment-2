@@ -7,6 +7,10 @@ body {
     background: rgba(255, 144, 14, 0.1);
 }
 
+*{
+    padding: 10px 10px;
+    overflow-x: hidden;
+}
 /* ----------------Header Start------------ */
 /* ---------------------------------------
             Header Style 
@@ -23,6 +27,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 30px 100px;
+    margin-top: 50px;
 }
 
 .nav-title {
@@ -54,24 +59,19 @@ ul {
     text-align: center;
 }
 
-.banner-title-1 {
+.banner-title {
     font-weight: 700;
     font-size: 64px;
     color: #131313;
-    margin-bottom: -55px;
+    
 }
 
-.banner-title-2 {
-    font-weight: 700;
-    font-size: 64px;
-    color: #131313;
-    margin-bottom: 10px;
-}
 
 .description {
     font-weight: 400;
     font-size: 16px;
     color: #727272;
+    margin-top: 24px;
 }
 
 .banner-img {
@@ -88,7 +88,8 @@ ul {
     background: #FF900E;
     border-radius: 8px;
     border: 0;
-    margin-bottom: 24px;
+    margin-top: 130px;
+
 }
 
 /* --------------------Header End */
@@ -97,6 +98,7 @@ ul {
 ------------------------------------------------------------------------ */
 .quick-features {
     display: flex;
+    justify-content: center;
     align-items: center;
 }
 
@@ -108,8 +110,8 @@ ul {
 }
 
 .quick-features .div-1 img {
-    width: 342px;
-    height: 342px;
+    width: 100%;
+    height: 100%;
 }
 
 .div-2 {
@@ -156,8 +158,8 @@ ul {
 
 .enjoy-features .enj-photo img {
     width: 708px;
-height: 982px;
-border-radius: 8px;
+    height: 982px;
+    border-radius: 8px;
 }
 
 button {
@@ -168,62 +170,79 @@ button {
     background: #FF900E;
     border-radius: 8px;
     border: 0;
-    margin-top: -800px;
+    position: relative;
+    top: -130px;
+    overflow-y: hidden;
 }
 
 /*------------------------------------------ 
               Facts Styles
 --------------------------------------- */
-.title{
+.title {
     font-weight: 700;
-font-size: 45px;
-color: #131313;
-margin-bottom: 1px;
+    font-size: 45px;
+    color: #131313;
+    margin-bottom: 1px;
 }
 
 /* -----------------------------------------------
              icon styles
 --------------------------------------- */
-.icons{
+.icons {
     display: flex;
     grid-template-columns: repeat(4, 1fr);
-    align-items: center;
     justify-content: space-around;
+    width: 100%;
+    height: 100%;
 }
-.icon{
-    display: flex;
-    align-items: center;
-    width: 241.83px;
-height: 241.83px;
-border: 1px solid #FF900E;
-border-radius: 8px;
-transform: rotate(-360deg);
+
+.icon {
+    padding-top: 20px;
+    padding-left: 55px;
+    width: 200px;
+    height: 150px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
 }
-.icon:hover{
-    color: lightcoral;
+
+.icon:hover {
+    background-color: lightsalmon;
 }
-.icon-detail{
-    text-align: center;
-    padding: 50px 50px;
+
+.icon-detail {
+    position: relative;
+    top: -5px;
+    left: -170px;
+}
+
+.number {
+    font-weight: 600;
+    font-size: 45px;
+    color: #424242;
+    margin-top: 50px;
+    margin-bottom: -50px;
 }
 
 /* --------------------------------------------------
                Footer Styles
 --------------------------------------------- */
-.sponsor{
+.sponsor {
     text-align: center;
 }
-.logos{
+
+.logos {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 24px;
     margin: 0 50px;
     margin-bottom: 120px;
 }
-.logos img{
-   color: #424242;
-    
+
+.logos img {
+    color: #424242;
+
 }
-.last{
+
+.last {
     text-align: center;
 }

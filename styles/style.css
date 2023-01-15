@@ -257,7 +257,7 @@ button {
         background: rgba(255, 144, 14, 0.1);
     }
     
-    nav {
+    nav, nav li {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         flex-direction: column;

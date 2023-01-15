@@ -7,10 +7,11 @@ body {
     background: rgba(255, 144, 14, 0.1);
 }
 
-*{
+* {
     padding: 10px 10px;
     overflow-x: hidden;
 }
+
 /* ----------------Header Start------------ */
 /* ---------------------------------------
             Header Style 
@@ -63,7 +64,7 @@ ul {
     font-weight: 700;
     font-size: 64px;
     color: #131313;
-    
+
 }
 
 
@@ -245,4 +246,60 @@ button {
 
 .last {
     text-align: center;
+}
+
+/* -------------------------------------------------------------
+                     Media Query
+--------------------------------------------------------- */
+@media screen and (max-width:688px) {
+    body {
+        font-family: none;
+        background: rgba(255, 144, 14, 0.1);
+    }
+    
+    nav {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        flex-direction: column;
+        justify-items: center;
+        padding: 0%;
+    }
+    .banner, .banner-img, .quick-features, .div-1, .enjoy-features, .facts, .icons, .logos {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        flex-direction: column;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        margin-top: 0%;
+       margin-bottom: 0;
+       justify-items: center;
+    }
+
+    .enjoy-features .enj-photo img {
+        width: 100%;
+        height: 100%;
+        border-radius: 8px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .icon-detail {
+        position: relative;
+        top: -5px;
+        left: -170px;
+    }
+    
+    .number {
+        font-weight: 0;
+        font-size: 0;
+        color: #424242;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .logos{
+        justify-items: normal;
+        padding: 0;
+    }
+
 }

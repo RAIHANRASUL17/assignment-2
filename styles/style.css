@@ -1,0 +1,129 @@
+/* font styles */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* Common styles or Utilizes */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: rgba(255, 144, 14, 0.1);
+}
+
+/* ----------------Header Start------------ */
+/* ---------------------------------------
+            Header Style 
+--------------------------------------------------*/
+/* header{
+    padding: 30px 100px;
+} */
+
+/* ------------------------------------------------------------
+       Header:-Nav Styles
+------------------------------------------------------------- */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 100px;
+}
+
+.nav-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav li a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    color: #424242;
+}
+
+ul {
+    display: flex;
+    gap: 10px;
+}
+
+/* ---------------------------------------------------
+         Header Banner Styles
+------------------------------------------------ */
+.banner-brand {
+    text-align: center;
+}
+
+.banner-title-1 {
+    font-weight: 700;
+    font-size: 64px;
+    color: #131313;
+    margin-bottom: -55px;
+}
+
+.banner-title-2 {
+    font-weight: 700;
+    font-size: 64px;
+    color: #131313;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.banner-img {
+    width: 1440px;
+    height: 700px;
+    margin-bottom: 130px;
+}
+
+.btn {
+    padding: 20px;
+    width: 180px;
+    height: 64px;
+    color: #FFFFFF;
+    background: #FF900E;
+    border-radius: 8px;
+    border: 0;
+    margin-bottom: 24px;
+}
+
+/* --------------------Header End */
+/* ----------------------------------------------------------------
+                        Main Quick Features Styles
+------------------------------------------------------------------------ */
+.quick-features {
+    display: flex;
+    align-items: center;
+}
+
+.div-1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 24px;
+    grid-row-gap: 24px;
+}
+
+.quick-features .div-1 img {
+    width: 342px;
+    height: 342px;
+}
+
+.div-2 {
+    margin: 0 50px;
+}
+
+.color-1 {
+    color: #727272;
+}
+
+.color-2 {
+    color: #131313;
+}
+
+.color-3 {
+    color: #FF900E;
+}
